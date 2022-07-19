@@ -7,8 +7,11 @@ The python script is written using two popular python modules:
 2. Polars
 
 The script uses argparse, which takes command line arguments. 
+
 first argument takes the file name: -f <file_name.csv>
+
 second argument takes a dictionary of columns and limits: -d "{'col1':limit}"
+
 example: 
 python file_name.py -f browse.csv -d "{'col1':100, 'col2':(10,6)}"
 
