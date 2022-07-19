@@ -7,4 +7,4 @@ The python script is written using two popular python modules:
 2. Polars
 
 comparatively polars is 4X faster than pandas. 
-I will provide both the scripts, refer any one which best fits your purpose :)
+I will provide both the scripts, refer any one which best fits your purpose :-)
