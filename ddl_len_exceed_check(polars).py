@@ -14,9 +14,7 @@ def ddl_limit_float_handle(row, x, y):
     row = str(row)
     row_split = row.split(".")
     k = len(row_split[0]) + len(row_split[-1])
-    # print(k,type(k))
-    # print(x,type(x))
-    # print(y,type(y))
+
     if (k > x) or (len(row_split[-1]) > y):
         return 'Not Okay'
     else:
@@ -49,7 +47,8 @@ def driver():
         print(store[store['result_' + i[0]] == 'Not Okay'])
         print('******************************************************************************************')
 
-    print("\n\n", store.head())
+    # print("\n\n", store.head())
+    # To print the whole data frame in the output
 
 
 if __name__ == '__main__':
